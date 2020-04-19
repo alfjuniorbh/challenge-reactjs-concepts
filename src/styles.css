@@ -6,34 +6,79 @@
 
 body {
   font-size: 14px;
+  background: #7159c1;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 400px;
+  margin: auto;
+  background: #fff;
+  padding: 10px;
+  height: 100%;
+  overflow: auto;
 }
 
-div {
-  width: 100%;
-  margin: 20px;
+.container h1 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+.container h1 svg {
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
 }
 
-div li {
+.container li {
   display: flex;
-  align-items: center;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0px;
 }
 
-div li + li {
-  margin-top: 15px;
+.container li .divide {
+  float: left;
+  width: 2px;
+  height: 30px;
+  position: relative;
+  top: 3px;
+  background-color: #7159c1;
+  margin-right: 10px;
+}
+
+.container li + li {
+  margin-top: 10px;
+}
+.container li p {
+  width: 100%;
+}
+.container li p span {
+  width: 100%;
+  float: left;
+  font-size: 12px;
+  color: #666;
+  padding-top: 3px;
 }
 
 button {
-  background: #7159c1;
   color: #fff;
   border: 0;
   padding: 10px 15px;
   cursor: pointer;
-  margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  background: #009c22;
+  float: right;
+  margin-top: 20px;
 }
 
-div li button {
-  margin: 0 15px;
-  background: #ca4949;
+.container li button {
+  background: #fff;
+  color: #ca4949;
+  padding: 10px 10px 5px 10px;
+  font-size: 20px;
+  margin-top: -10px;
 }
