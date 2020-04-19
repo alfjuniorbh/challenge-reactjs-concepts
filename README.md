@@ -1,4 +1,4 @@
-<img alt="GoStack" src="src/assets/reactjs.png" />
+<img alt="GoStack" src="src/assets/go-stack.png" />
 
 <h3 align="center">
   ReactJS Concepts Challenge
